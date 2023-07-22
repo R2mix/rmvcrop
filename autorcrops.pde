@@ -10,7 +10,7 @@ void setup() {
 
 void draw() {
   for (int i = 0; i < costumes.length; i++) {
-    clear();
+    background(0);
     image(costumes[i], 0, 0);
     removeBackground();
     autoCrop(i);
