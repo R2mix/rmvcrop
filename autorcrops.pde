@@ -3,7 +3,8 @@ String[] names = null;
 File[] imageFiles;
 
 void setup() {
-  size(800, 600);
+  surface.setTitle("rmvcrop");
+  size(2048, 2048);
   spriteFolder();
   noLoop();
 }
